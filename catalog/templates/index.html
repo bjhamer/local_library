@@ -1,12 +1,12 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-<h1>Local Library Home</h1>
+<h1>Secret Madison Library</h1>
 
 <p>Welcome to <em>LocalLibrary</em>, a very basic Django website</p> 
 
 
-<h2>Dynamic content</h2>
+<h2>Ever Growing Collections!</h2>
 
 <p>The library has the following record counts:</p>
 <ul>
@@ -15,8 +15,5 @@
 <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
 <li><strong>Authors:</strong> {{ num_authors }}</li>
 </ul>
-
-
-You have visited this page {{ num_visits }} times.
 
 {% endblock %}
